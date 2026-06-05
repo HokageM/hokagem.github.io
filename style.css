@@ -75,6 +75,72 @@ a {
     );
 }
 
+/* PROJECT CATEGORY COLORS */
+
+.project-card {
+  --project-color: var(--purple-deep);
+  --project-color-soft: var(--panel-purple);
+  --project-color-line: var(--lavender-line);
+}
+
+.project-ml-ai {
+  --project-color: #7b5cd6;
+  --project-color-soft: #eee8ff;
+  --project-color-line: #c8b8f2;
+}
+
+.project-bioinformatics {
+  --project-color: #2f8f7b;
+  --project-color-soft: #e2f7f1;
+  --project-color-line: #a8ddd0;
+}
+
+.project-algorithms {
+  --project-color: #d9822b;
+  --project-color-soft: #fff0dd;
+  --project-color-line: #f0c18b;
+}
+
+.project-app-development {
+  --project-color: #2d7dd2;
+  --project-color-soft: #e2f0ff;
+  --project-color-line: #a8ccef;
+}
+
+.project-cli-tools {
+  --project-color: #5b667a;
+  --project-color-soft: #eceff4;
+  --project-color-line: #c5ccd8;
+}
+
+.project-card .card-topline {
+  color: var(--project-color);
+}
+
+.project-card::before {
+  border-top-color: var(--project-color);
+  border-right-color: var(--project-color);
+}
+
+.project-card:hover {
+  border-color: var(--project-color);
+}
+
+.project-card .project-links a {
+  color: var(--project-color);
+}
+
+.project-card .project-links a:hover {
+  color: var(--project-color);
+  border-color: var(--project-color);
+}
+
+.project-card .skill-list span {
+  background: var(--project-color-soft);
+  border-color: var(--project-color-line);
+  color: var(--project-color);
+}
+
 /* HEADER */
 
 .site-header {
