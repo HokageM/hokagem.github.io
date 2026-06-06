@@ -63,9 +63,9 @@
 
             <div class="avatar-frame">
                 <img
-                    src="assets/my_foto.jpg"
-                    alt="Profile picture"
-                    class="avatar-image"
+                        src="assets/my_foto.jpg"
+                        alt="Profile picture"
+                        class="avatar-image"
                 >
             </div>
 
@@ -594,17 +594,33 @@
     <section id="posts" class="section">
         <div class="section-title">
             <p>LOGBOOK // POSTS</p>
-            <h2>Interesting Topics</h2>
+            <h2>Posts</h2>
         </div>
 
         <div class="post-board">
             <article class="post-card">
-                <span class="post-date">2026-XX-XX</span>
-                <h3>Graph RAG on ontologies</h3>
-                <p>
-                    Coming soon!
-                </p>
-                <a href="#">Read more</a>
+                <span class="post-date">2026-06-06</span>
+                <h3>ByakuganVisualizer: Color-Blind Accessibility Through Image Processing</h3>
+
+                <p> ByakuganVisualizer started from a personal motivation: I have a mixed form of deuteranomaly and
+                    protanomaly, which made me interested in how color perception can be simulated, analyzed, and
+                    improved through image processing. While researching the topic, I found the paper: <a href="https://arxiv.org/abs/1711.10662"
+                                                                      target="_blank" rel="noopener noreferrer"> An
+                    Adaptive Fuzzy-Based System to Simulate, Quantify and Compensate Color Blindness </a></p>
+                <p> The paper describes methods for simulating and compensating color blindness using fuzzy parameters, linear
+                    transformations, and histogram-based operations. </p>
+                <p> The derived transformation matrix became the foundation for the color correction feature in
+                    ByakuganVisualizer. With my personal settings <code>deuteranomaly = 2</code> and <code>protanomaly =
+                        2</code>, the tool transforms color-blind test images in a way that makes the hidden numbers
+                    distinguishable for me. </p>
+                <p> Example: <a
+                        href="https://github.com/HokageM/ByakuganVisualizer/blob/main/tests/test_images/color_blind_test.jpg"
+                        target="_blank" rel="noopener noreferrer"> before correction </a> and <a
+                        href="https://github.com/HokageM/ByakuganVisualizer/blob/main/tests/test_images/filtered/Filtered_color_blind_test_deuteranomaly_2.0_protanomaly_2.0.jpg"
+                        target="_blank" rel="noopener noreferrer"> after correction </a>. After applying the correction,
+                    I am able to see every number in the test image. </p> <a
+                    href="https://github.com/HokageM/ByakuganVisualizer" target="_blank" rel="noopener noreferrer"> View
+                project </a>
             </article>
         </div>
     </section>

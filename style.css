@@ -645,14 +645,15 @@ code {
 
 .post-board {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1fr);
   gap: 1.4rem;
 }
 
 .post-card {
   position: relative;
-  padding: 1.4rem;
+  padding: 1.8rem;
   overflow: hidden;
+  max-width: 600px;
 }
 
 .post-date {
