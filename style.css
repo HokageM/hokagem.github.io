@@ -469,6 +469,38 @@ h1 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+.achievement-section-header {
+  grid-column: 1 / -1;
+  padding-bottom: 1.1rem;
+  border-bottom: 1px solid var(--lavender-line);
+}
+
+.achievement-section-header h3 {
+  margin: 0.35rem 0 0.55rem;
+  font-family: "Orbitron", sans-serif;
+  color: var(--purple-deep);
+  font-size: 1.25rem;
+}
+
+.achievement-section-header p {
+  max-width: 860px;
+  margin: 0;
+  color: var(--muted);
+}
+
+.achievement-section-label {
+  margin: 0;
+  font-family: "Orbitron", sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--purple-deep);
+}
+
+.achievement-section-header.secondary {
+  margin-top: 1.8rem;
+}
+
 .achievement-link {
   display: inline-block;
   margin-top: 0.7rem;
